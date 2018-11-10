@@ -1,0 +1,18 @@
+default_view:
+  view: yes
+  icon: mdi:home
+  entities:
+    - sun.sun
+    - group.kleur
+    - group.wit
+
+kleur:
+  name: Kleur
+  entities:
+    - light.kleur1
+    - light.kleur_2
+wit:
+  name: Wit
+  entities:
+    - light.wit_1
+    - light.wit_2
